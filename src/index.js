@@ -2,12 +2,11 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "The Raven by Edgar Allan Poe",
+    strings: ["love"],
     autoStart: true,
-    cursor: "",
-    delay: 1,
+    delay: 75,
   });
 }
 
 let poemFormComponent = document.querySelector("#poem-generator-form");
-poemFormComponent.addEventListener("submit", generatepoem);
+poemFormComponent.addEventListener("submit", generatePoem);
