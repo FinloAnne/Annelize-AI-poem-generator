@@ -7,41 +7,45 @@
     <title>Annelize AI poem generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI poem generator</h1>
-    </header>
-
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic of poem"
-          autofocus
-          required />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem goes here
-        <br />
-        The poem goes here
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/FinloAnne/" target="_blank"
-        >Annelize Cloete</a
-      >
-      is
-      <a
-        href="https://github.com/FinloAnne/Annelize-AI-poem-generator"
-        target="_blank">
-        open-sourced on GitHub</a
-      >
-      and
-      <a href="https://annelize-ai-poem-generator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic of poem"
+            autofocus
+            required
+            class="instructions" />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The Raven by Edgar Allan Poe
+          <br />
+          Invictus by William Ernest Henley
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/FinloAnne/" target="_blank"
+          >Annelize Cloete</a
+        >
+        is
+        <a
+          href="https://github.com/FinloAnne/Annelize-AI-poem-generator"
+          target="_blank">
+          open-sourced on GitHub</a
+        >
+        and
+        <a
+          href="https://annelize-ai-poem-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
