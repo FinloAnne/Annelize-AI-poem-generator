@@ -57,6 +57,11 @@ form {
     rgb(255, 200, 124) 0%,
     rgb(252, 251, 121) 90%
   );
+
+  .poem strong {
+    color: red;
+  }
+
   padding: 20px;
   line-height: 24px;
   border-left: 3px solid blanchedalmond;
